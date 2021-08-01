@@ -1,7 +1,7 @@
 public abstract class Figura implements IFigura{
 
-    protected String colorBorde;// = "Negro";
-    protected String colorRelleno;// = "Blanco";
+    protected String colorBorde;
+    protected String colorRelleno;
     protected Rectangulo rectangulo;
  
     public String getColorBorde(){
@@ -34,13 +34,6 @@ public abstract class Figura implements IFigura{
 
     public void draw(){
     }
-    
-    // public String toString()
-    //     {
-    //         return("El relleno es de color " +
-    //                this.getColorRelleno()+", y el borde es "+ this.getColorBorde()+".");
-    //     }
-
 }
 
 
