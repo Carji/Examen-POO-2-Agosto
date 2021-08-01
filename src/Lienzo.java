@@ -20,7 +20,10 @@ public class Lienzo extends Figura implements ILienzo{
 
         for(Figura forma : lista){
 
-            if(punto.getY() >= forma.getRectangulo().getTop() && punto.getX() <= forma.getRectangulo().getRight() && punto.getX() >= forma.getRectangulo().getLeft() && punto.getY() <= forma.getRectangulo().getBottom()){
+            if(punto.getY() >= forma.getRectangulo().getTop() 
+            && punto.getX() <= forma.getRectangulo().getRight() 
+            && punto.getX() >= forma.getRectangulo().getLeft() 
+            && punto.getY() <= forma.getRectangulo().getBottom()){
 
                 return forma;
             }
